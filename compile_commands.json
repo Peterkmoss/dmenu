@@ -1,0 +1,23 @@
+[
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-Wall",
+            "-Os",
+            "-I/usr/X11R6/include",
+            "-I/usr/include/freetype2",
+            "-D_DEFAULT_SOURCE",
+            "-D_BSD_SOURCE",
+            "-D_XOPEN_SOURCE=700",
+            "-D_POSIX_C_SOURCE=200809L",
+            "-DVERSION=\"4.9\"",
+            "-DXINERAMA",
+            "dmenu.c"
+        ],
+        "directory": "/home/peter/git/suckless-builds/dmenu",
+        "file": "dmenu.c"
+    }
+]
