@@ -1,1 +1,5 @@
 .clangd/
+*.o
+stest
+dmenu
+.cache/

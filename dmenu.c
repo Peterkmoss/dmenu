@@ -705,9 +705,9 @@ void readxresources(void) {
       colors[SchemeNorm][ColBg] = strdup(xval.addr);
     if (XrmGetResource(xdb, "dmenu.color7", "*", &type, &xval))
       colors[SchemeNorm][ColFg] = strdup(xval.addr);
-    if (XrmGetResource(xdb, "dmenu.color4", "*", &type, &xval))
+    if (XrmGetResource(xdb, "dmenu.color3", "*", &type, &xval))
       colors[SchemeSel][ColBg] = strdup(xval.addr);
-    if (XrmGetResource(xdb, "dmenu.color7", "*", &type, &xval))
+    if (XrmGetResource(xdb, "dmenu.color0", "*", &type, &xval))
       colors[SchemeSel][ColFg] = strdup(xval.addr);
 
     XrmDestroyDatabase(xdb);
